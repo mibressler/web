@@ -18,8 +18,8 @@ export interface ContactInfo {
 }
 
 export const data: ContactInfo = {
-  alias: 'laymonage',
-  name: 'Sage Abdullah',
+  alias: 'Michael Bressler',
+  name: 'Michael Bressler',
   description: 'I build up and break down stuff in the open.',
   metaDescription:
     'laymonage is Sage M. Abdullah. I build up and break down stuff in the open.',
@@ -50,7 +50,7 @@ export default function Contact({
 }: ContactInfo) {
   const subtitle = name ? (
     <>
-      <span className="mr-1 text-gray-500 sm:ml-4"> is </span>
+      <span className="mr-1 text-gray-500 sm:ml-4">  </span>
       <span>{name}</span>
     </>
   ) : undefined;
